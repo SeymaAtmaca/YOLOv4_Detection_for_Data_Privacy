@@ -1,7 +1,13 @@
-# YOLOv4_Detection_for_Data_Privacy
 
-<br><br>
-<h1> Türkçe  </h1> 
+## Technologies
+<ul>
+<li> :snake: Python </li>
+</ul>
+
+
+
+<br>
+<h1> :waning_crescent_moon: :star: Türkçe  </h1> 
 Bu repo, veri güvenliği için YOLOv4 nesne tespiti ile oluşturulmuş bir projenin dosyalarını içermektedir. <br>
 
 * Program ilk olarak COCO veri seti ile elde edilen YOLOv4 ağırlıklarını indirir ve genel kütüphane kurulumlarını gerçekleştirir.<br> 
@@ -31,7 +37,7 @@ This repo contains files of a project created with YOLOv4 object detection for d
 
 
 <hr>
-1) "Password" işlemi ( "Password" Operation ) <br>
+<h3>1) :lock: "Password" işlemi ( "Password" Operation ) </h3><br>
 
 * <b> Türkçe : </b> "person" sınıfı algılandıktan sonra kullanıcıdan bir "password" istenir. Eğer sistemde kayıtlı "password" ile girilen "password" uyuşmuyorsa sistem sonlanır.  <br>
 * <b> English : </b> After the "person" class is detected, the user is prompted for a "password". If the "password" registered in the system and the "password" entered do not match, the system terminates. <br><br>
@@ -39,13 +45,16 @@ This repo contains files of a project created with YOLOv4 object detection for d
 
 <br><br><br>
 
-2) Encode işlemi ( Encode Operation ) <br>
+<h3>2) :skull: Encode işlemi ( Encode Operation )</h3> <br>
+
 * <b> Türkçe : <b> Encode işlemi seçildikten sonra kullanıcıdan kaydetmek istediği mesajı girmesi beklenir. Alınan mesaj fernet ile şifrelenerek ilgili dosyalara kaydedilir ve program sonlanır. <br>
 * <b> English : <b> After the encode operation is selected, the user is expected to enter the message he wants to record. The received message is encrypted with fernet and saved in the relevant files and the program is terminated. <br><br>
+
 ![2](https://github.com/SeymaAtmaca/YOLOv4_Detection_for_Data_Privacy/blob/main/images/2.jpg ) <br><br><br>
 
 
-3) Decode işlemi ( Decode Operation ) <br>
+<h3>3) :ghost: Decode işlemi ( Decode Operation )</h3> <br>
+
 * <b> Türkçe : <b> Decode işleminde, "enc_message_file.csv" dosyasındaki şifreli mesaj, "fernet.csv" dosyasında depolanan anahtar ile açılır ve kayıtlı mesaj termianlde gösterilir. Bu noktada güvenliği daha da artırabilmek için "key.csv" dosyası farklı bir konumda saklanabilir. <br>
 * <b> English : <b> In the decode operation, the encrypted message in the "enc_message_file.csv" file is decrypted with the key stored in the "fernet.csv" file and the recorded message is displayed in the termianl. At this point, the "key.csv" file can be stored in a different location to further increase security. <br><br> 
 
@@ -53,12 +62,7 @@ This repo contains files of a project created with YOLOv4 object detection for d
 <br><br><br>
 
 
-## Technologies
-<ul>
-<li> Python </li>
-</ul>
 
-<br><br>
 
 ## Contact
 
