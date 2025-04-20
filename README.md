@@ -1,7 +1,7 @@
 
 ## Technologies
 <ul>
-<li> :snake: Python </li>
+<li> :snake: Python </li> 
 </ul>
 
 
