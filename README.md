@@ -5,7 +5,7 @@
 </ul>
 
 
-
+ 
 <br>
 <h1> :waning_crescent_moon: :star: Türkçe  </h1> 
 Bu repo, veri güvenliği için YOLOv4 nesne tespiti ile oluşturulmuş bir projenin dosyalarını içermektedir. <br>
